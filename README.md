@@ -2,19 +2,19 @@
 public class Readme {
   
   public static void main(String[] args) {
-    Desenvolvedor matheus21Oliveira = new Desenvolvedor;
+    Desenvolvedor matheusOliveira = new Desenvolvedor;
     
-    matheus21Oliveira.nome = "Matheus de Oliveira";
-    matheus21Oliveira.area = "Desenvolvimento Back-end Java";
-    matheus21Oliveira.faculdade = "Sistemas de Informação";
-    matheus21Oliveira.local = "Belo Horizonte";
-    matheus21Oliveira.meta = "Desenvolvimento de Jogos";
+    matheusOliveira.nome = "Matheus de Oliveira";
+    matheusOliveira.area = "Desenvolvimento Back-end";
+    matheusOliveira.faculdade = "Sistemas de Informação";
+    matheusOliveira.local = "Belo Horizonte";
+    matheusOliveira.meta = "Desenvolvimento de Jogos";
     
-    matheus21Oliveira.linguagens  = ["Java";
-    matheus21Oliveira.bancoDeDados = ["MySQL"]; 
+    matheusOliveira.linguagens  = ["Java", "CSharp"];
+    matheusOliveira.bancoDeDados = ["MySQL"]; 
     
-    if (matheus21Oliveira.status != "estudando") {
-      matheus21Oliveira.jogar();
+    if (matheusOliveira.status != "estudando") {
+      matheusOliveira.jogar();
     }    
   }
 }
